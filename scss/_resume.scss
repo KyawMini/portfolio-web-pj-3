@@ -4,6 +4,7 @@
             font-weight: bold;
             color: $semi-dark;
             font-size: 28px;
+            margin-top: 70px;
         }
         .resume-card {
             border: none !important;
@@ -35,6 +36,19 @@
                         h5{
                             color: $primary-col;
                         }
+                }
+        }
+
+        .skill{
+
+                .skill-bar{
+                    background-color: $primary-col;
+                }
+                p{
+                    font-family: $p-font;
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 0 !important;
                 }
         }
 }
